@@ -1,0 +1,55 @@
+/* * {
+    border: 1px solid black;
+} */
+
+
+body {
+    background-image: url(../odin-recipes/images/TOP_logo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.heading {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: #c08621;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 30px;
+    border: 2px solid black;
+    display: flex;
+    background-color: #ead8c4;
+}
+
+.chocobanana,
+.chicken,
+.mango {
+    margin: 10px 10px 10px 60px;
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: #c08621;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 8px black;
+    transition: background-color 2s ease;
+}
+
+button:hover {
+    background-color: orangered;
+    transition: background-color 1s ease;
+}
