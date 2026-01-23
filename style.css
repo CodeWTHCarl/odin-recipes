@@ -24,17 +24,22 @@ a {
 }
 
 ul {
+    text-align: center;
     list-style: none;
     padding: 30px;
     border: 2px solid black;
     display: flex;
     background-color: #ead8c4;
+    display: flex;
+    flex-wrap: wrap;          /* allows buttons to move to next row */
+    justify-content: center;  /* centers buttons */
+    gap: 20px; 
 }
 
 .chocobanana,
 .chicken,
 .mango {
-    margin: 10px 10px 10px 60px;
+    margin: ;
     padding: 10px;
 }
 
@@ -47,9 +52,18 @@ button {
     border-radius: 10px;
     box-shadow: 0 0 8px black;
     transition: background-color 2s ease;
+    width: 100%;
+    max-width: 250px;   /* keeps them nice on large screens */
 }
 
 button:hover {
     background-color: orangered;
     transition: background-color 1s ease;
 }
+
+
+
+
+
+/* This sections below is for the recipes individual pages */
+
