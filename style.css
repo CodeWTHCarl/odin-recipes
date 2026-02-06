@@ -30,7 +30,6 @@ a {
     border: 2px solid black;
     display: flex;
     background-color: #ead8c4;
-    display: flex;
     flex-wrap: wrap;          /* allows buttons to move to next row */
     justify-content: center;  /* centers buttons */
     gap: 20px; 
@@ -39,7 +38,6 @@ a {
 .chocobanana,
 .chicken,
 .mango {
-    margin: ;
     padding: 10px;
 }
 
@@ -50,7 +48,7 @@ a {
     background-color: #c08621;
     color: white;
     border-radius: 10px;
-    box-shadow: 0 0 8px black;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     transition: background-color 2s ease;
     width: 100%;
     max-width: 250px;   /* keeps them nice on large screens */
@@ -67,3 +65,158 @@ button:hover {
 
 /* This sections below is for the recipes individual pages */
 
+.recipe-image {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  margin:0 auto 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.recipe-content {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.ingredients,
+.steps {
+  flex: 1;
+  min-width: 250px;
+}
+
+.back-home {
+  display: inline-block;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.recipe .recipe-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.recipe section {
+    margin-bottom: 30px;
+    padding: 10px 0;
+}
+
+.recipe .recipe-content {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.recipe .ingredients,
+.recipe .steps {
+    flex: 1;
+    min-width: 250px;
+}
+
+.recipe .back-home {
+    display: inline-block;
+    margin-top: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #c08621;
+}
+
+.recipe-title {
+    display: inline-block;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2.5em;
+    color: #c08621;
+    margin: 0 auto 20px auto;
+    padding: 5px 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    margin: 0;
+}
+
+.title-divider {
+    height: 3px;
+    background-color: #c08621;
+    margin: 0 auto 20px auto; 
+    width: 60%;              
+    max-width: 500px;    
+    margin: 10px auto 20px auto;
+    border-radius: 2px;
+}
+
+.recipe header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+/* designs */
+
+.recipe h1 {
+   font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2.5em;      
+    color: #c08621;
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 1px;   
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2); 
+}
+
+.recipe h2 {
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+    color: #333;            
+    border-bottom: 2px solid #c08621; 
+    padding-bottom: 5px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 1.4em;
+}
+
+.recipe p {
+    line-height: 1.6;      
+    font-size: 1em;
+    color: #444;          
+    margin-bottom: 15px;
+}
+
+.recipe ul,
+.recipe ol {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.recipe li {
+    margin-bottom: 8px; 
+}
+
+
+.recipe .button-wrapper {
+    text-align: center;  
+    margin-top: 30px;     
+}
+
+
+.recipe .back-home {
+    display: inline-block;     
+    margin: 40px auto 0 auto;       
+    padding: 10px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: #c08621;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 8px black;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.recipe .back-home:hover {
+    background-color: orangered;
+}
