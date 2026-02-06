@@ -3,8 +3,8 @@
 } */
 
 
-body {
-    background-image: url(../odin-recipes/images/TOP_logo.jpg);
+.home {
+    background-image: url(images/TOP_logo.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -23,7 +23,7 @@ a {
     text-decoration: none;
 }
 
-ul {
+.home ul {
     text-align: center;
     list-style: none;
     padding: 30px;
@@ -43,7 +43,7 @@ ul {
     padding: 10px;
 }
 
-button {
+.home button {
     padding: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
