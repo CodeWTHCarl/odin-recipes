@@ -17,6 +17,9 @@
     font-weight: bold;
     text-align: center;
     padding: 10px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto 10px auto;
 }
 
 a {
@@ -30,9 +33,13 @@ a {
     border: 2px solid black;
     display: flex;
     background-color: #ead8c4;
-    flex-wrap: wrap;          /* allows buttons to move to next row */
-    justify-content: center;  /* centers buttons */
+    flex-wrap: wrap;          
+    justify-content: center; 
     gap: 20px; 
+    border-radius: 10px;
+    max-width: 700px;
+    margin: 0 auto;
+    
 }
 
 .chocobanana,
@@ -58,8 +65,6 @@ button:hover {
     background-color: orangered;
     transition: background-color 1s ease;
 }
-
-
 
 
 
@@ -124,17 +129,18 @@ button:hover {
 }
 
 .recipe-title {
-    display: inline-block;
+    display: block;
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 2.5em;
     color: #c08621;
-    margin: 0 auto 20px auto;
     padding: 5px 15px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    margin: 0;
+    background-color: beige;
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 .title-divider {
@@ -219,4 +225,26 @@ button:hover {
 
 .recipe .back-home:hover {
     background-color: orangered;
+}
+
+
+.recipe {
+    background-color: bisque;
+}
+
+p,
+ul,
+ol {
+    background-color: beige;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.credits,
+.credits-list {
+    text-align: center;
+    list-style: none;
+    max-width: 500px;
+    margin: 0 auto;
 }
